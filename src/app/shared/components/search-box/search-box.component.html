@@ -1,0 +1,8 @@
+<input
+type="text"
+class="form-control"
+[placeholder]="placeHolder"
+[(ngModel)]="value"
+(keyup.enter)="emitValue (txtInput.value)"
+#txtInput
+>
